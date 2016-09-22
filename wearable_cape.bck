@@ -1,0 +1,64 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BEAGLEBONEBLACK_P8
+D Connector, double row, 02x23
+K connector
+$ENDCMP
+#
+$CMP BEAGLEBONEBLACK_P9
+D Connector, double row, 02x23
+K connector
+$ENDCMP
+#
+$CMP BELA_AINS
+D Connector, single row, 01x10
+K connector
+$ENDCMP
+#
+$CMP BELA_AOUTS
+D Connector, single row, 01x10
+K connector
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector, single row, 01x04
+K connector
+$ENDCMP
+#
+$CMP CONN_01X10
+D Connector, single row, 01x10
+K connector
+$ENDCMP
+#
+$CMP CONN_02X23
+D Connector, double row, 02x23
+K connector
+$ENDCMP
+#
+$CMP CP1
+D Polarised capacitor
+$ENDCMP
+#
+$CMP C_polar
+D Polarized Capacitor
+K capacitor
+$ENDCMP
+#
+$CMP MCP6001
+D General purpose op-amp, rail-to-rail and low supply voltage
+$ENDCMP
+#
+$CMP MCP6002
+D General purpose dual op-amp, rail-to-rail and low supply voltage
+$ENDCMP
+#
+$CMP MCP6004
+D General purpose rail-to-rail quad op-amp with low supply voltage
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+#End Doc Library

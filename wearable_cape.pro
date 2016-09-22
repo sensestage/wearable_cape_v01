@@ -1,4 +1,4 @@
-update=2016 September 17, Saturday 18:31:33
+update=2016 September 21, Wednesday 20:47:05
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/Volumes/Store/Box/DEV/KiCad/biosensor_v0.02/biosensor
+LibName31=wearable_cape
