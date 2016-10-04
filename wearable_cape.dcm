@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BATTERY_CONNECTOR
+D Battery Connector, 01x02 row
+K connector
+$ENDCMP
+#
 $CMP BEAGLEBONEBLACK_P8
 D Connector, double row, 02x23
 K connector
@@ -17,6 +22,11 @@ $ENDCMP
 #
 $CMP BELA_AOUTS
 D Connector, single row, 01x10
+K connector
+$ENDCMP
+#
+$CMP CONN_01X02
+D Connector, single row, 01x02
 K connector
 $ENDCMP
 #
@@ -54,6 +64,12 @@ $ENDCMP
 #
 $CMP MCP6004
 D General purpose rail-to-rail quad op-amp with low supply voltage
+$ENDCMP
+#
+$CMP OKI_78SR-5
+D DC-DC Switching Buck Regulator +5V
+K POWER REGULATOR
+F Documentation/Datasheets/oki-78sr-1.pdf
 $ENDCMP
 #
 $CMP SW_PUSH
