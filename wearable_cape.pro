@@ -1,4 +1,4 @@
-update=2016 September 21, Wednesday 20:47:05
+update=Wed 19 Oct 2016 17:04:25 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../lib
+LibDir=kicadlibs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,7 @@ LibName28=contrib
 LibName29=valves
 LibName30=/Volumes/Store/Box/DEV/KiCad/biosensor_v0.02/biosensor
 LibName31=wearable_cape
+LibName32=kicadlibs/beagleboneblack
+LibName33=kicadlibs/beaglebone
+LibName34=kicadlibs/oki_78sr-5
+LibName35=kicadlibs/oki_7805
