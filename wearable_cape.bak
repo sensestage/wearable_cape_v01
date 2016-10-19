@@ -1341,8 +1341,6 @@ Wire Wire Line
 	9600 8050 9400 8050
 Wire Wire Line
 	10400 8050 10700 8050
-Wire Wire Line
-	10000 8550 10000 8350
 $Comp
 L OKI_7805 U4
 U 1 1 58078EB3
@@ -1649,13 +1647,13 @@ $EndComp
 Wire Wire Line
 	1750 2575 2000 2575
 Connection ~ 2000 2575
-Text Label 8025 8900 0    60   ~ 0
-D12
-Text Label 8025 9000 0    60   ~ 0
-D13
-Text Label 8025 9100 0    60   ~ 0
-D14
 Text Label 8025 9200 0    60   ~ 0
+D12
+Text Label 8025 9100 0    60   ~ 0
+D13
+Text Label 8025 9000 0    60   ~ 0
+D14
+Text Label 8025 8900 0    60   ~ 0
 D15
 Wire Wire Line
 	2200 7400 1925 7400
@@ -1667,4 +1665,37 @@ Text Label 1925 7400 0    60   ~ 0
 TX
 Wire Wire Line
 	3750 2900 3525 2900
+$Comp
+L CP1 C?
+U 1 1 58088FAF
+P 9525 8275
+F 0 "C?" H 9550 8375 50  0000 L CNN
+F 1 "CP1" H 9550 8175 50  0000 L CNN
+F 2 "" H 9525 8275 50  0000 C CNN
+F 3 "" H 9525 8275 50  0000 C CNN
+	1    9525 8275
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5808906C
+P 10550 8275
+F 0 "C?" H 10575 8375 50  0000 L CNN
+F 1 "CP1" H 10575 8175 50  0000 L CNN
+F 2 "" H 10550 8275 50  0000 C CNN
+F 3 "" H 10550 8275 50  0000 C CNN
+	1    10550 8275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 8050 9525 8125
+Connection ~ 9525 8050
+Wire Wire Line
+	10550 8050 10550 8125
+Connection ~ 10550 8050
+Wire Wire Line
+	9525 8425 10550 8425
+Connection ~ 10000 8425
+Wire Wire Line
+	10000 8350 10000 8550
 $EndSCHEMATC
