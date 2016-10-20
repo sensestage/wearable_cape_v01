@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name BBB)(type KiCad)(uri "$(KIPRJMOD)/modules/BBB.pretty")(options "")(descr ""))
+  (lib (name Lumberg)(type KiCad)(uri "$(KIPRJMOD)/modules/Lumberg.pretty")(options "")(descr ""))
 )
