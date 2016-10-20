@@ -1,6 +1,6 @@
 Source,/home/nescivi/git/projects/earthquakes/wearable_cape_v01/wearable_cape.sch
 Kicad Rev,Eeschema 4.0.2+dfsg1-stable
-Generated Date,Wed 19 Oct 2016 20:27:10 CEST
+Generated Date,Thu 20 Oct 2016 16:35:08 CEST
 
 Title,Not Set
 Company,Not Set
@@ -33,8 +33,6 @@ C10,440pF,device,C
 C12,1uF,device,CP1
 R1,100,device,R
 SW1,SW_HALT,device,SW_PUSH
-P5,CONN_01X04,conn,CONN_01X04
-P6,CONN_01X04,conn,CONN_01X04
 U2,MCP6004,linear,MCP6004
 C14,220pF,device,C
 R15,28.7k,device,R
@@ -46,7 +44,6 @@ R16,28.7k,device,R
 R14,28.7k,device,R
 C17,440pF,device,C
 C19,1uF,device,CP1
-P7,CONN_01X04,conn,CONN_01X04
 R2,120k,device,R
 R3,68k,device,R
 SW2,SW_MODE_SEL,device,SW_PUSH
@@ -57,3 +54,29 @@ P2,RECEIVER,conn,CONN_02X04
 P3,BATTERY,conn,CONN_01X02
 U4,OKI_7805,oki_7805,OKI_7805
 C20,100nF,device,C
+C21,CP1,device,CP1
+C22,CP1,device,CP1
+P5,PWR_OUT,conn,CONN_01X02
+J1,JACK_3P,jack_3p,JACK_3P
+J2,JACK_3P,jack_3p,JACK_3P
+J3,JACK_3P,jack_3p,JACK_3P
+C23,C,device,C
+C24,C,device,C
+R23,100k,device,R
+R25,100k,device,R
+R24,100k,device,R
+R34,100k,device,R
+R32,100k,device,R
+R33,100k,device,R
+R19,150k,device,R
+R20,200k,device,R
+R17,150k,device,R
+R18,200k,device,R
+R21,150k,device,R
+R22,200k,device,R
+R30,150k,device,R
+R31,200k,device,R
+R28,150k,device,R
+R29,200k,device,R
+R26,150k,device,R
+R27,200k,device,R
