@@ -1,0 +1,59 @@
+* /home/nescivi/git/projects/earthquakes/wearable_cape_v01/wearable_cape.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Wed 19 Oct 2016 20:23:38 CEST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  Net-_C3-Pad1_ Net-_C3-Pad1_ Net-_C1-Pad1_ VCC Net-_C2-Pad1_ Net-_C4-Pad1_ Net-_C4-Pad1_ Net-_C10-Pad1_ Net-_C10-Pad1_ Net-_C8-Pad1_ GNDA Net-_C9-Pad1_ Net-_C11-Pad1_ Net-_C11-Pad1_ MCP6004		
+C2  Net-_C2-Pad1_ REF_1.8V 220pF		
+R7  Net-_C2-Pad1_ Net-_C4-Pad2_ 28.7k		
+R5  Net-_C4-Pad2_ /BELA_OUT3 28.7k		
+C4  Net-_C4-Pad1_ Net-_C4-Pad2_ 440pF		
+C7  Net-_C4-Pad1_ /FILT_OUT1 1uF		
+P4  /BELA_OUT0 /BELA_OUT1 /BELA_OUT2 /BELA_OUT3 /BELA_OUT4 /BELA_OUT5 ? ? VCC GNDA BELA_AOUTS		
+C1  Net-_C1-Pad1_ REF_1.8V 220pF		
+R6  Net-_C1-Pad1_ Net-_C3-Pad2_ 28.7k		
+R4  Net-_C3-Pad2_ /BELA_OUT2 28.7k		
+C3  Net-_C3-Pad1_ Net-_C3-Pad2_ 440pF		
+C6  Net-_C3-Pad1_ /FILT_OUT0 1uF		
+C5  VCC GNDA 100nF		
+C9  Net-_C9-Pad1_ REF_1.8V 220pF		
+R11  Net-_C9-Pad1_ Net-_C11-Pad2_ 28.7k		
+R9  Net-_C11-Pad2_ /BELA_OUT0 28.7k		
+C11  Net-_C11-Pad1_ Net-_C11-Pad2_ 440pF		
+C13  Net-_C11-Pad1_ /FILT_OUT3 1uF		
+C8  Net-_C8-Pad1_ REF_1.8V 220pF		
+R10  Net-_C8-Pad1_ Net-_C10-Pad2_ 28.7k		
+R8  Net-_C10-Pad2_ /BELA_OUT1 28.7k		
+C10  Net-_C10-Pad1_ Net-_C10-Pad2_ 440pF		
+C12  Net-_C10-Pad1_ /FILT_OUT2 1uF		
+R1  /~HALT Net-_R1-Pad2_ 100		
+SW1  GND Net-_R1-Pad2_ SW_HALT		
+P5  /FILT_OUT1 /FILT_OUT0 BAT_11.1V GND CONN_01X04		
+P6  /FILT_OUT2 /FILT_OUT3 BAT_11.1V GND CONN_01X04		
+U2  Net-_C16-Pad1_ Net-_C16-Pad1_ Net-_C14-Pad1_ VCC Net-_C15-Pad1_ Net-_C17-Pad1_ Net-_C17-Pad1_ REF_1.8V REF_1.8V Net-_R2-Pad2_ GNDA MCP6004		
+C14  Net-_C14-Pad1_ REF_1.8V 220pF		
+R15  Net-_C14-Pad1_ Net-_C16-Pad2_ 28.7k		
+R13  Net-_C16-Pad2_ /BELA_OUT4 28.7k		
+C16  Net-_C16-Pad1_ Net-_C16-Pad2_ 440pF		
+C18  Net-_C16-Pad1_ /FILT_OUT4 1uF		
+C15  Net-_C15-Pad1_ REF_1.8V 220pF		
+R16  Net-_C15-Pad1_ Net-_C17-Pad2_ 28.7k		
+R14  Net-_C17-Pad2_ /BELA_OUT5 28.7k		
+C17  Net-_C17-Pad1_ Net-_C17-Pad2_ 440pF		
+C19  Net-_C17-Pad1_ /FILT_OUT5 1uF		
+P7  /FILT_OUT4 /FILT_OUT5 BAT_11.1V GND CONN_01X04		
+R2  VCC Net-_R2-Pad2_ 120k		
+R3  Net-_R2-Pad2_ GNDA 68k		
+SW2  SYS_3.3V /D0 SW_MODE_SEL		
+R12  /D0 GND 10k		
+P1  ? ? ? ? ? ? ? ? ? ? BELA_AINS		
+U3  GND GND ? ? ? ? /D0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? /D12 /D13 /D14 /D15 ? ? ? ? ? ? /TX /RX ? ? ? ? ? ? ? ? GND GND ? SYS_3.3V RAW_5V RAW_5V ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? /~HALT ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? GND GND GND GND BEAGLEBONEBLACK		
+P2  RAW_5V /D15 /RX /D14 /TX /D13 GND /D12 RECEIVER		
+P3  GND BAT_11.1V BATTERY		
+U4  BAT_11.1V GND RAW_5V OKI_7805		
+C20  VCC GNDA 100nF		
+
+.end
