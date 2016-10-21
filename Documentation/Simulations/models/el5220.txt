@@ -1,4 +1,5 @@
-*EL5220C/EL5420C spice model. This spice model modes the single amplifier for EL5220C and EL5420C
+*EL5220C/EL5420C spice model.
+*This spice model modes the single amplifier for EL5220C and EL5420C
 *The AC responses are based on Rl=10K, Cl=10pF
 * connections:        +input
 *                       |  -input
