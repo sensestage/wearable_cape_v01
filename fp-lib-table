@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name BBB)(type KiCad)(uri "$(KIPRJMOD)/modules/BBB.pretty")(options "")(descr ""))
   (lib (name Lumberg)(type KiCad)(uri "$(KIPRJMOD)/modules/Lumberg.pretty")(options "")(descr ""))
+  (lib (name IDC_header_8pin)(type KiCad)(uri "$(KIPRJMOD)/modules/IDC_header_8pin.pretty")(options "")(descr ""))
 )

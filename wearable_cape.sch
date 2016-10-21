@@ -1092,7 +1092,7 @@ U 1 1 5807839E
 P 7100 9050
 F 0 "P2" H 7100 9300 50  0000 C CNN
 F 1 "RECEIVER" H 7100 8800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x04" H 7100 7850 50  0001 C CNN
+F 2 "IDC_header_8pin:IDC_Header_Straight_10pins" H 7100 7850 50  0001 C CNN
 F 3 "" H 7100 7850 50  0000 C CNN
 	1    7100 9050
 	1    0    0    -1  
@@ -1116,10 +1116,6 @@ Wire Wire Line
 	6850 8900 6550 8900
 Text GLabel 6550 8900 0    60   Input ~ 0
 RAW_5V
-Wire Wire Line
-	6050 9000 6850 9000
-Wire Wire Line
-	6050 9100 6850 9100
 Text Label 6650 9000 0    60   ~ 0
 RX
 Text Label 6650 9100 0    60   ~ 0
@@ -1146,7 +1142,7 @@ U 1 1 5807D590
 P 12150 8250
 F 0 "P3" H 12150 8400 50  0000 C CNN
 F 1 "BATTERY" V 12250 8250 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 12150 8250 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 12150 8250 50  0001 C CNN
 F 3 "" H 12150 8250 50  0000 C CNN
 	1    12150 8250
 	-1   0    0    1   
@@ -1330,14 +1326,14 @@ $EndComp
 Wire Wire Line
 	1750 2575 2000 2575
 Connection ~ 2000 2575
-Text Label 8025 9200 0    60   ~ 0
-D12
-Text Label 8025 9100 0    60   ~ 0
-D13
-Text Label 8025 9000 0    60   ~ 0
-D14
 Text Label 8025 8900 0    60   ~ 0
-D15
+D2
+Text Label 8025 9000 0    60   ~ 0
+D3
+Text Label 8025 9100 0    60   ~ 0
+D4
+Text Label 8025 9200 0    60   ~ 0
+D5
 Wire Wire Line
 	2200 7400 1925 7400
 Text Label 3750 7400 0    60   ~ 0
@@ -2055,4 +2051,8 @@ Wire Wire Line
 	4775 1950 4775 1900
 Wire Wire Line
 	4775 1900 4675 1900
+Wire Wire Line
+	6650 9000 6850 9000
+Wire Wire Line
+	6850 9100 6650 9100
 $EndSCHEMATC
