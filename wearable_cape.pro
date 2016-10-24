@@ -1,4 +1,4 @@
-update=Wed 19 Oct 2016 17:04:25 CEST
+update=Thu 20 Oct 2016 14:29:56 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,5 +62,5 @@ LibName30=/Volumes/Store/Box/DEV/KiCad/biosensor_v0.02/biosensor
 LibName31=wearable_cape
 LibName32=kicadlibs/beagleboneblack
 LibName33=kicadlibs/beaglebone
-LibName34=kicadlibs/oki_78sr-5
-LibName35=kicadlibs/oki_7805
+LibName34=kicadlibs/oki_7805
+LibName35=kicadlibs/jack_3p
