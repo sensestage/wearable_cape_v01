@@ -1,4 +1,4 @@
-update=Thu 20 Oct 2016 14:29:56 CEST
+update=2017 March 06, Monday 13:14:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=kicadlibs/beagleboneblack
 LibName33=kicadlibs/beaglebone
 LibName34=kicadlibs/oki_7805
 LibName35=kicadlibs/jack_3p
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
