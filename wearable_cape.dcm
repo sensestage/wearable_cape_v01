@@ -54,6 +54,11 @@ D Polarized Capacitor
 K capacitor
 $ENDCMP
 #
+$CMP Led_x2
+D DOUBLE LED BICOLOR RED GREEN
+K LED BICOLOR RED GREEN
+$ENDCMP
+#
 $CMP MCP6001
 D General purpose op-amp, rail-to-rail and low supply voltage
 $ENDCMP
@@ -70,6 +75,16 @@ $CMP OKI_78SR-5
 D DC-DC Switching Buck Regulator +5V
 K POWER REGULATOR
 F Documentation/Datasheets/oki-78sr-1.pdf
+$ENDCMP
+#
+$CMP RG_Led
+D DOUBLE LED BICOLOR RED GREEN
+K LED BICOLOR RED GREEN
+$ENDCMP
+#
+$CMP SWITCH_SPDT
+D inverseur
+K switch
 $ENDCMP
 #
 $CMP SW_PUSH
